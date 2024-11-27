@@ -75,3 +75,10 @@ git revert [COMMIT_ID]
 git log --oneline
 git cherry-pick [COMMIT_ID]
 
+### 13. Reset
+```bash
+git log --oneline
+git reset --soft HEAD~1
+```
+### 14. Create Patch
+git diff HEAD > <file>
