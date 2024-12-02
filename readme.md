@@ -88,6 +88,8 @@ git reset --soft HEAD~1
 ```
 git diff HEAD > <file>
 ```
-### 15. Apply Patch  
+
+### 15. Apply Patch 
+``` 
 git apply <file>
 ```
