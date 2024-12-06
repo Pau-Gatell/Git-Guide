@@ -67,7 +67,7 @@ git stach pop
 git stash list
 ```
 ### 11. Revert Commit
-``` 
+```
 git log --oneline
 git revert [COMMIT_ID]
 ```
@@ -79,17 +79,17 @@ git cherry-pick [COMMIT_ID]
 ```
 
 ### 13. Reset
-```  
+```
 git log --oneline
 git reset --soft HEAD~1
 ```
 
-### 14. Create Patch  
+### 14. Create Patch
 ```
 git diff HEAD > <file>
 ```
 
-### 15. Apply Patch 
-``` 
+### 15. Apply Patch
+```
 git apply <file>
 ```
