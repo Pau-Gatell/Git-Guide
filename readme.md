@@ -89,6 +89,7 @@ git reset --hard HEAD~1
 ### 14. Create Patch
 ```
 git diff HEAD > <file>
+git format-patch -1 HEAD
 ```
 
 ### 15. Apply Patch
